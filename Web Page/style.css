@@ -1,0 +1,151 @@
+body {
+	margin: 0 !important;
+}
+
+
+.header {
+   background-color: rgb(244, 0, 64);
+   height: 600px;
+   width: 100%;
+}
+
+           #logo {
+                  background-color:  black;
+                  margin: 4% 0% 0% 16%;
+                  float:left;
+
+                }
+
+                #logo img {
+                           height:50%;
+                           width: 50%;
+                           display:block;
+                   }
+      
+           #menu {
+                 height: auto;
+                 width: auto;
+                 background-color: rgb(19, 61, 35);
+                 position: absolute;
+                 margin: 4% 0% 0% 50%;
+               }
+
+               #featuresMenuButton {
+                      
+                                    }
+
+               #howItWorksMenuButton {
+          
+                                 }
+
+               #aboutUsMenuButton {
+          
+                                    }
+
+               #facebookMenuSocial {
+                            height: auto;
+                            width:3%;
+                              }
+
+               #instagramMenuSocial {
+                             height: auto;
+                             width:3%;
+                             }
+
+                 #twitterMenuSocial {
+                            height: auto;
+                            width:3%;
+                            }
+
+
+            #summary {
+                 height: 300px;
+                 width: 300px;
+                 background-color: rgb(190, 206, 86);
+                 position:absolute;
+                 margin: 10% 0% 0% 70%;
+               }
+
+
+.features {
+  background-color: rgb(22, 20, 21);
+   height: 400px;
+   width: 100%;
+}
+
+      
+.howItWorks {
+  background-color: yellow;
+   height: 200px;
+   width: 100%;
+}
+
+.moto {
+  background-color: cyan;
+   height: 200px;
+   width: 100%;
+}
+
+.download {
+ background-color: green;
+   height: 500px;
+   width: 100%;
+}
+          #footerButtons {
+          	      height: auto;
+                  width: auto;
+                  background-color: red;
+                  position:absolute;
+                  margin: 15% 0% 0% 40%;
+                }  
+          #buttoniOS {
+                  height: 50px;
+                  width: 50px;
+                  background-color: cyan;
+                  display:inline-block;
+                }
+      
+           #buttonAndroid {
+                 height: 50px;
+                 width: 50px;
+                 background-color: white;
+                 display:inline-block;
+               }
+
+            #andItsFree {
+                 height: 200px;
+                 width: 200px;
+                 background-color: red;
+                 position:absolute;
+                 margin: -6% 0% 0% 80%;
+                 z-index: 10;
+               }
+            #phoneWithLogoImage {
+                 height: 300px;
+                 width: 300px;
+                 background-color: rgb(190, 206, 86);
+                 position:absolute;
+                 margin: 5% 0% 0% 70%;
+               }
+
+
+.footer {
+ background-color: brown;
+   height: 200px;
+   width: 100%;
+}
+            #socialBar {
+                  height: 100px;
+                  width: 300px;
+                  background-color: rgb(244, 66, 238);
+                  position:absolute;
+                  margin: 2% 0% 0% 10%;
+                }
+      
+           #allRightsReserved {
+                 height: 100px;
+                 width: 300px;
+                 background-color: rgb(19, 61, 35);
+                 position:absolute;
+                 margin: 0% 0% 0% 45%;            
+               }

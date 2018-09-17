@@ -1,0 +1,20 @@
+ISSUES table
+
+LanguageID and CountryID-> varchar(50) because of memory usage there are less countries/languages than for example "random" number of issues (we expect huge number of issues)
+isActive -> Based on google the bit datatype can take values 0, 1 and null
+CityID -> We will use varchar(6) and because of colision with other random generated ID's . For example, for UserID we will use first letter to be "c", for CityID and "u" for UserID etc. and other 5 
+          will be randomly generated characters and number: c _ _ _ _ _ for CityIDs and u _ _ _ _ _ for UserID. Hence, varchar(6).
+
+issueLocation -> varchar(50) because of commas, numbers, letters and huge String
+
+CITIES table
+cityLocation -> varchar(50) don't know if it is location in coordinates ex. 42 42 21 12 3 3 4 4  or street location
+
+COUNTRIES table
+
+nameShort -> we expect max 6 characters in short name for country 
+
+
+
+
+
