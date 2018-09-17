@@ -15,17 +15,38 @@ body {
 	clear:right;
 }
 
-#wrapperPrvi {
-	display:inline-block;
-	vertical-align: middle;
-	float:left;
-}
 
 #wrapperDrugi {
-	display:inline-block;
-	vertical-align: middle;
+
 	float:right;
 }
+
+
+#spotTheIssueWrapper {
+                     float:right;
+                     margin-left:40%;
+                    }
+
+                #spotTheIssueContainer {
+                                       background-color: red;
+                                       height:100%;
+                                       display:flex;
+                                       align-items: center;
+                                   }
+
+                                        #spotTheIssue {
+                                                      background-color: cyan;
+                                                      width:20px;
+                                                      height:20px;
+                                                      float:left;
+                                                   }
+                    
+                                        #lineDivider {
+                                                      background-color: yellow;
+                                                      width:20px;
+                                                      height:10px;
+                                                      float:left;
+                                                   }
 
 #drugi{
 	background-color: red;
@@ -45,26 +66,5 @@ body {
                     	   width:20px;
                     	   height:20px;
                     	   float:left;
-                    }
-
-#prvi{
-	 background-color: red;
-	 height:100%;
-	 display:flex;
-	 align-items: center;
-	}
-
-                    #prvi1 {
-                    	   background-color: cyan;
-                    	   width:20px;
-                    	   height:20px;
-                    	   float:right;
-                    }
-
-                    #prvi2 {
-                    	   background-color: yellow;
-                    	   width:20px;
-                    	   height:10px;
-                    	   float:right;
                     }
 

@@ -122,100 +122,165 @@ img {
           width: 100%;
 }
 
-                      #lineDividerRight {
-                                    height:5px;
-                                    width:10px;
-                                    background-color: red;
-                                    float:right;
-                      }
 
-                                         #lineDividerRightSpotTheIssue {
-                                                       height:5px;
-                                                       width:10px;
-                                                       background-color: red;
-                                                       float:right;
-                                                       margin-top:5%;
-                                         }
 
-                                         #lineDividerRightWaitForTownship {
-                                                       height:5px;
-                                                       width:10px;
-                                                       background-color: red;
-                                                       float:right;
-                                                       margin-top:2.5%;
-                                         }
 
-                                         #lineDividerRightKeepHelping {
-                                                       height:5px;
-                                                       width:10px;
-                                                       background-color: red;
-                                                       float:right;
-                                                       margin-top:2.4%;
-                                         }
 
-                      #lineDividerLeft {
-                                    height:5px;
-                                    width:10px;
-                                    background-color: red;
-                                    float:left;
-                      }
+#spotTheIssueWrapper {
+                     float:right;
+                     margin-right:20%;
+                    }
 
-                                         #lineDividerLeftTakePicture {
-                                                                      height:5px;
-                                                                      width:10px;
-                                                                      background-color: red;
-                                                                      float:left;
-                                                                      margin-top:2.4%;
-                                                                   }
-
-                                         #lineDividerLeftTrackTheProgress {
-                                                                           height:5px;
-                                                                           width:10px;
-                                                                           background-color: red;
-                                                                           float:left;
-                                                                           margin-top:2.4%;
-                                                                    }
-
-                      #spotTheIssue {
-                                    float:right;
-                                    background-color: yellow;
-                                    margin-right:43.8%;
-                                    margin-top:4.5%;
-                             }
-                      #takePicture {
-                                    float:left;
-                                    background-color: yellow;
-                                    margin-left:42.3%;
-                                    margin-top:2.9%;
-                             
-                             }
-
-                       #waitForTownship {
-                                        float:right;
-                                        background-color: yellow;
-                                        margin-right:39.1%;
-                                        margin-top:2%;
-                             }
-
-                       #trackTheProgress {
-                                          float:left;
-                                          background-color: yellow;
-                                          margin-left:38.3%;
-                                          margin-top:2%;
-                             }
-
-                       #keepHelping {
-                                    float:right;
-                                    background-color: yellow;
-                                    margin-right:42.2%;
-                                    margin-top:2%;
+                #spotTheIssueContainer {
+                                       background-color: red;
+                                       height:100%;
+                                       display:flex;
+                                       align-items: center;
                                    }
+                                        #spotTheIssueWrappperINS {
+                                        }
+
+                                        #spotTheIssue {
+                                                      background-color: cyan;
+                                                      display:flex;
+                                                      align-items: center;
+                                                   }
+
+                                                      #spotTheIssueImage {
+                                                            width:50px;
+                                                            height:50px;
+                                                            background-color:black;
+                                                      }
+                    
+                                        #lineDivider {
+                                                      background-color: yellow;
+                                                      width:50px;
+                                                      height:10px;
+                                                   }
+
+#takePictureWrapper {
+                     float:left;
+                     margin-left;
+                    }
+
+                #takePictureContainer {
+                                       background-color: red;
+                                       height:100%;
+                                       display:flex;
+                                       align-items: center;
+                                   }
+                                        #takePictureWrappperINS {
+                                        }
+
+                                        #takePicture {
+                                                      background-color: cyan;
+                                                      display:flex;
+                                                      align-items: center;
+                                                   }
+
+                                                      #takePictureImage {
+                                                            width:50px;
+                                                            height:50px;
+                                                            background-color:black;
+                                                      }
+                    
 
 
 
+#trackTheProgressWrapper {
+                     float:left;
+                     margin-left;
+                    }
+
+                #trackTheProgressContainer {
+                                       background-color: red;
+                                       height:100%;
+                                       display:flex;
+                                       align-items: center;
+                                   }
+                                        #trackTheProgressWrappperINS {
+                                        }
+
+                                        #trackTheProgress {
+                                                      background-color: cyan;
+                                                      display:flex;
+                                                      align-items: center;
+                                                   }
+
+                                                      #trackTheProgressImage {
+                                                            width:50px;
+                                                            height:50px;
+                                                            background-color:black;
+                                                      }
+
+
+#waitForTownshipWrapper {
+                     float:right;
+                     margin-right:20%;
+                    }
+
+                #waitForTownshipContainer {
+                                       background-color: red;
+                                       height:100%;
+                                       display:flex;
+                                       align-items: center;
+                                   }
+                                        #waitForTownshipWrapperINS {
+                                        }
+
+                                        #waitForTownship {
+                                                      background-color: cyan;
+                                                      display:flex;
+                                                      align-items: center;
+                                                   }
+
+                                                      #waitForTownshipImage {
+                                                            width:50px;
+                                                            height:50px;
+                                                            background-color:black;
+                                                      }
+                    
+                                        #lineDivider {
+                                                      background-color: yellow;
+                                                      width:50px;
+                                                      height:10px;
+                                                   }
+
+
+#keepHelpingWrapper {
+                     float:right;
+                     margin-right:20%;
+                    }
+
+                #keepHelpingContainer {
+                                       background-color: red;
+                                       height:100%;
+                                       display:flex;
+                                       align-items: center;
+                                   }
+                                        #keepHelpingWrapperINS {
+                                        }
+
+                                        #keepHelping {
+                                                      background-color: cyan;
+                                                      display:flex;
+                                                      align-items: center;
+                                                   }
+
+                                                      #keepHelpingImage {
+                                                            width:50px;
+                                                            height:50px;
+                                                            background-color:black;
+                                                      }
+                    
+                                        #lineDivider {
+                                                      background-color: yellow;
+                                                      width:50px;
+                                                      height:10px;
+                                                   }
       
 .howItWorks {
-  background-color: yellow;
+   background-color: yellow;
    height: 200px;
    width: 100%;
 }
