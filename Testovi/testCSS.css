@@ -1,70 +1,8 @@
-body {
-          background: url("images/linija fade-out.svg") 0 0 no-repeat;
-          background-position: center center;
-          height: 600px;}
+ body {
+  font-family: "Roboto", sans-serif;
+ }
 
-#clearBoth{
-	clear:both;
-}
-
-#clearLeft{
-	clear:left;
-}
-
-#clearRight{
-	clear:right;
-}
-
-
-#wrapperDrugi {
-
-	float:right;
-}
-
-
-#spotTheIssueWrapper {
-                     float:right;
-                     margin-left:40%;
-                    }
-
-                #spotTheIssueContainer {
-                                       background-color: red;
-                                       height:100%;
-                                       display:flex;
-                                       align-items: center;
-                                   }
-
-                                        #spotTheIssue {
-                                                      background-color: cyan;
-                                                      width:20px;
-                                                      height:20px;
-                                                      float:left;
-                                                   }
-                    
-                                        #lineDivider {
-                                                      background-color: yellow;
-                                                      width:20px;
-                                                      height:10px;
-                                                      float:left;
-                                                   }
-
-#drugi{
-	background-color: red;
-	height:100%;
-	display:flex;
-	align-items: center;
-}
-
-                    #drugi1 {
-                    	   background-color: yellow;
-                    	   width:20px;
-                    	   height:10px;
-                    	   float:left;                    }
-
-                    #drugi2 {
-                    	   background-color: cyan;
-                    	   width:20px;
-                    	   height:20px;
-                    	   float:left;
-                    }
-
+ img {
+    width:100%;
+    height:auto;
+ }
