@@ -1,8 +1,64 @@
  body {
   font-family: "Roboto", sans-serif;
+  margin:0;
+  background-color: white;
  }
 
- img {
-    width:100%;
-    height:auto;
- }
+.wrapper {
+      position:relative;
+      width:40%;
+      margin:0 auto;
+
+}
+
+img {
+        position: relative;
+        max-width: 100%;
+}
+.lijevi {
+          background-color: yellow;
+          width:50%;
+          opacity: 0.5;
+          top:0;
+          left: 0;
+          position: absolute;
+}
+
+              .box__lijevi {
+                    width:20px;
+                    height:20px;
+                    background-color: black;
+                    position: absolute;
+                    right:0;
+
+              }
+
+              .pTag__lijevi {
+                    background-color: cyan;
+                    position: absolute;
+                    right:0;
+              }
+
+.desni {
+    background-color: red;
+    width:50%;
+    opacity: 0.5;
+    position:absolute; 
+    top:0;
+    right:0;
+    position: absolute;
+}
+
+               .box__desni {
+                    width:20px;
+                    height:20px;
+                    background-color: black;
+                    position: absolute;
+                    left:0;
+
+              }
+              .pTag__desni {
+                    background-color: red;
+                    position: absolute;
+                    right:0;
+              }
