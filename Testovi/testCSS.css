@@ -6,59 +6,56 @@
 
 .wrapper {
       position:relative;
-      width:40%;
+      width:50%;
       margin:0 auto;
+      top:0;
+
 
 }
 
 img {
-        position: relative;
         max-width: 100%;
+        height:auto;
 }
+
 .lijevi {
           background-color: yellow;
           width:50%;
-          opacity: 0.5;
           top:0;
-          left: 0;
           position: absolute;
 }
 
               .box__lijevi {
                     width:20px;
-                    height:20px;
-                    background-color: black;
+                    height:500px;
+                    background-color: rgba(244, 140, 66, 0.4);
                     position: absolute;
-                    right:0;
-
               }
 
               .pTag__lijevi {
-                    background-color: cyan;
-                    position: absolute;
-                    right:0;
+                    background-color: rgba(66, 244, 238, 0.1);
+                    position:absolute;
+                    margin:0;
               }
 
 .desni {
-    background-color: red;
+    background-color: yellow;
     width:50%;
-    opacity: 0.5;
     position:absolute; 
     top:0;
     right:0;
-    position: absolute;
 }
 
                .box__desni {
                     width:20px;
-                    height:20px;
-                    background-color: black;
+                    height:30px;
+                    background-color: rgba(244, 140, 66, 0.3);
+                    left:0;
+              }
+
+              .pTag__desni {
+                    background-color: rgba(255, 0, 0, 0.3);
                     position: absolute;
                     left:0;
-
-              }
-              .pTag__desni {
-                    background-color: red;
-                    position: absolute;
-                    right:0;
+                    margin-top:0; /*Po defaultu ima neke margine pa ih moras popravit. Izbrisi ovu liniju koda pa ces vidjet o cemu se radi.*/
               }
