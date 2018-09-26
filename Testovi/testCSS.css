@@ -10,7 +10,10 @@
       margin:0 auto;
       top:0;
 
+}
 
+.clearBoth {
+  clear:right;
 }
 
 img {
@@ -27,15 +30,17 @@ img {
 
               .box__lijevi {
                     width:20px;
-                    height:500px;
+                    height:30px;
                     background-color: rgba(244, 140, 66, 0.4);
-                    position: absolute;
-              }
+                    float:right;
+                 }
+
 
               .pTag__lijevi {
                     background-color: rgba(66, 244, 238, 0.1);
                     position:absolute;
                     margin:0;
+                    float:right;
               }
 
 .desni {
