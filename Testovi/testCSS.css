@@ -43,7 +43,7 @@ img {
                     float:right;
               }
 
-.desni {
+.rightSide {
     background-color: yellow;
     width:50%;
     position:absolute; 
@@ -51,16 +51,16 @@ img {
     right:0;
 }
 
-               .box__desni {
-                    width:20px;
-                    height:30px;
+               .rightSideContainerFirst {
                     background-color: rgba(244, 140, 66, 0.3);
-                    left:0;
               }
 
-              .pTag__desni {
+
+              .rightSideContainerAfterFirst {
                     background-color: rgba(255, 0, 0, 0.3);
-                    position: absolute;
-                    left:0;
                     margin-top:0; /*Po defaultu ima neke margine pa ih moras popravit. Izbrisi ovu liniju koda pa ces vidjet o cemu se radi.*/
               }
+
+                                                       .spotTheIssue {
+
+                                                                    } 
