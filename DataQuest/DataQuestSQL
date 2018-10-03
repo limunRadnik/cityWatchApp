@@ -1,0 +1,1 @@
+SELECT imeKolone1, imeKolone2..., imeKoloneN FROM imeTabele // selektuje kolone 1,2,3...,n iz odredjene tabele 
