@@ -1,1 +1,31 @@
-SELECT imeKolone1, imeKolone2..., imeKoloneN FROM imeTabele // selektuje kolone 1,2,3...,n iz odredjene tabele  sasa
+SELECT imeKolone1, imeKolone2..., imeKoloneN FROM imeTabele; // Selektuje kolone 1,2,3...,n iz odredjene tabele
+Ako umjesto "imeKolone1, imaKolone2,... imeKoloneN" stavis * selektovace SVE kolone iz tabele. 
+
+SELECT DISTINCT imeKolone FROM imeTabele; // Filtrira i izbacuje samo "distinct" stvari iz kolona. 
+
+SELECT COUNT(*) FROM imeTabele; // Vraca broj redova u tabeli.
+ 
+SELECT COUNT(imeKolone) FROM imeTabele; // Vraca broj redova u koloni imeKolone gdje NEMA NULL (non-missing values).
+
+SELECT COUNT(DISTINCT imeKolone) FROM imeTabele; // Vraca broj redova u koloni imeKolone gdje NEMA NULL (non-missing values) i koje su JEDINSTVENE. 
+
+_____________________________________________________
+
+___WHERE clause always comes after the FROM statement!
+
+							= equal
+							<> not equal
+							< less than
+							> greater than
+							<= less than or equal to
+							>= greater than or equal to
+
+SELECT imeKolone1,imeKolone2,...,imeKoloneN
+FROM imeTabele
+WHERE uslov
+
+Izabrace sve redove iz kolona gdje je ispunjen uslov. Dakle, prvo ce profiltrirati sve redove gdje je uslov ispunjen, a onda samo ispisati redove i njihove kolone tipa imeKolone1 i imeKolone2.
+
+In PostgreSQL (the version of SQL we're using), you must use single quotes with WHERE.
+
+November 11th, 1974 <=> '1974-11-11'
